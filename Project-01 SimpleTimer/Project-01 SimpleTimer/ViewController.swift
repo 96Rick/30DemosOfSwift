@@ -9,12 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     
-    var Counter: Double = 0
+    var counter: Double = 0
     var timer = Timer()
     var isPlaying = false
     
@@ -24,9 +25,9 @@ class ViewController: UIViewController {
         timeLabel.text = "👇Go"
     }
     
-    @objc func UpdateTimer() {
-        Counter += 0.01
-        timeLabel.text = String(format: "%.2f", Counter)
+    @objc func updateTimer() {
+        counter += 0.01
+        timeLabel.text = String(format: "%.2f", counter)
     }
     
     @IBAction func touchPlayButton(_ sender: Any) {
@@ -35,9 +36,10 @@ class ViewController: UIViewController {
         }
         playButton.isEnabled = false
         pauseButton.isEnabled = true
-        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(ViewController.UpdateTimer), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(ViewController.updateTimer), userInfo: nil, repeats: true)
         isPlaying = true
     }
+    
     @IBAction func touchPauseButton(_ sender: Any) {
         if timer.isValid != true {
             return
@@ -47,10 +49,11 @@ class ViewController: UIViewController {
         pauseButton.isEnabled = false
         isPlaying = false
     }
+    
     @IBAction func touchResetButton(_ sender: Any) {
         isPlaying = false
         timer.invalidate()
-        Counter = 0.0
+        counter = 0.0
         timeLabel.text = "👇Go"
         playButton.isEnabled = true
         pauseButton.isEnabled = true
@@ -60,7 +63,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
