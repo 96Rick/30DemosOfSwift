@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Project-01 SimpleTimer
+//  Project-01 simpleTimer
 //
 //  Created by Rick on 2017/10/12.
 //  Copyright © 2017年 Rick. All rights reserved.

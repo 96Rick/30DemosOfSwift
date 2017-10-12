@@ -1,6 +1,6 @@
 //
-//  Project_01_SimpleTimerUITests.swift
-//  Project-01 SimpleTimerUITests
+//  Project_01_simpleTimerUITests.swift
+//  Project-01 simpleTimerUITests
 //
 //  Created by Rick on 2017/10/12.
 //  Copyright © 2017年 Rick. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Project_01_SimpleTimerUITests: XCTestCase {
+class Project_01_simpleTimerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
