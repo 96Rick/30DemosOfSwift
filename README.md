@@ -3,6 +3,7 @@
 ## Project-01: SimpleTimer
 > Function: 
 > * 开始，暂停，Reset
+https://github.com/96Rick/30DemosOfSwift/blob/master/Project-01%20simpleTimer/simpleTimer.gif
 --------
 ## Project-02: ChangeFont
 > Function:
