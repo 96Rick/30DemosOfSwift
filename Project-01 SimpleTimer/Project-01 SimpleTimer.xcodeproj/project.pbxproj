@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D92D1711F9338C30013F1D9 /* simpleTimer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simpleTimer.gif; sourceTree = SOURCE_ROOT; };
+		1D71E5481F933D830066F962 /* simpleTimer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simpleTimer.gif; sourceTree = "<group>"; };
 		1DCA5E891F8F86E300D73D61 /* Project-01 simpleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-01 simpleTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCA5E8C1F8F86E300D73D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DCA5E8E1F8F86E300D73D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 				1DCA5E8E1F8F86E300D73D61 /* ViewController.swift */,
 				1DCA5E901F8F86E300D73D61 /* Main.storyboard */,
 				1DCA5E931F8F86E300D73D61 /* Assets.xcassets */,
+				1D71E5481F933D830066F962 /* simpleTimer.gif */,
 				1DCA5E951F8F86E300D73D61 /* LaunchScreen.storyboard */,
-				1D92D1711F9338C30013F1D9 /* simpleTimer.gif */,
 				1DCA5E981F8F86E300D73D61 /* Info.plist */,
 			);
 			path = "Project-01 simpleTimer";
