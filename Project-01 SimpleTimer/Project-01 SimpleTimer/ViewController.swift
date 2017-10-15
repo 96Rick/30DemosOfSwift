@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         timeLabel.text = String(format: "%.2f", counter)
     }
     
-    @IBAction func touchPlayButton(_ sender: Any) {
+    @IBAction func playButtonTapped(_ sender: Any) {
         if isPlaying {
             return
         }
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         isPlaying = true
     }
     
-    @IBAction func touchPauseButton(_ sender: Any) {
+    @IBAction func pausedButtonTapped(_ sender: Any) {
         if timer.isValid != true {
             return
         }
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         isPlaying = false
     }
     
-    @IBAction func touchResetButton(_ sender: Any) {
+    @IBAction func resetButtonTapped(_ sender: Any) {
         isPlaying = false
         timer.invalidate()
         counter = 0.0

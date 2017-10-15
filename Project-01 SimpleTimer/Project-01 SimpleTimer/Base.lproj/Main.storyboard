@@ -46,7 +46,7 @@
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="touchResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxm-io-q22"/>
+                                            <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKE-23-xiu"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -68,7 +68,7 @@
                                         <color key="backgroundColor" red="0.11372549086809158" green="0.65882354974746704" blue="0.16078431904315948" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <state key="normal" image="pause"/>
                                         <connections>
-                                            <action selector="touchPauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sOe-2s-gyV"/>
+                                            <action selector="pausedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHJ-2v-44c"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Seg-fk-Wwn">
@@ -76,7 +76,7 @@
                                         <color key="backgroundColor" red="0.23529411852359772" green="0.0" blue="0.92941176891326904" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <state key="normal" image="play"/>
                                         <connections>
-                                            <action selector="touchPlayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6HG-oi-YUK"/>
+                                            <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hf7-oE-TJd"/>
                                         </connections>
                                     </button>
                                 </subviews>
