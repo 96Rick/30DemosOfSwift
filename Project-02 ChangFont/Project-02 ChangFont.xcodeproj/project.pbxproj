@@ -78,13 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D4F6CEF1F93057F00A1BBCA /* Font */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
 		1D4F6CF51F930BA100A1BBCA /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +112,6 @@
 		1DE3159F1F90EA5D00E20E69 /* Project-02 ChangFont */ = {
 			isa = PBXGroup;
 			children = (
-				1D4F6CEF1F93057F00A1BBCA /* Font */,
 				1DE315A01F90EA5D00E20E69 /* AppDelegate.swift */,
 				1DE315A21F90EA5D00E20E69 /* ViewController.swift */,
 				1DE315A41F90EA5D00E20E69 /* Main.storyboard */,
