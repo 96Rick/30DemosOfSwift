@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         fontTableview.delegate = self
         fontTableview.dataSource = self
-//        (r+g+b)/3 > 128黑，否则白！
+
         if (fontColorRed + fontColorGreen + fontColorBlue)/3 > 128 {
             fontTableview.backgroundColor = UIColor.black
             self.view.backgroundColor = UIColor.black
@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             fontTableview.backgroundColor = UIColor.white
             self.view.backgroundColor = UIColor.white
         }
-        
+    
         for family in UIFont.familyNames{
             for font in UIFont.fontNames(forFamilyName: family){
                 fontNames.append(font)
@@ -76,10 +76,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBAction func changeFontButtonTapped(_ sender: Any) {
         fontRowIndex = (fontRowIndex + Int(arc4random())) % fontCount
         print(fontNames[fontRowIndex])
+        
         fontColorRed = Int(arc4random()) % 255
         fontColorGreen = Int(arc4random()) % 255
         fontColorBlue = Int(arc4random()) % 255
-        fontTableview.reloadData()
+        
         if (fontColorRed + fontColorGreen + fontColorBlue)/3 > 128 {
             fontTableview.backgroundColor = UIColor.black
             self.view.backgroundColor = UIColor.black
@@ -87,6 +88,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             fontTableview.backgroundColor = UIColor.white
             self.view.backgroundColor = UIColor.white
         }
+        
+        fontTableview.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
