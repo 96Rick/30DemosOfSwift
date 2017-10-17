@@ -9,6 +9,7 @@
 import UIKit
 
 class VideoCell: UITableViewCell {
+    var test: String = ""
 
     override func awakeFromNib() {
         super.awakeFromNib()
