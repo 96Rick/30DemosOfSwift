@@ -32,7 +32,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="234" id="2UG-wU-t2L">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="234" id="2UG-wU-t2L" customClass="VideoCell" customModule="Project_03_LocalVideo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="234"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2UG-wU-t2L" id="TKP-wh-Zbf">
@@ -63,6 +63,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFC-dh-ekT">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="233"/>
                                                     <state key="normal" image="playBtn"/>
+                                                    <connections>
+                                                        <action selector="playVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggZ-6Z-ZD6"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -84,6 +87,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <outlet property="videoDescLabel" destination="SyS-Tj-uLd" id="qij-aj-13C"/>
+                                            <outlet property="videoScreenImage" destination="73A-h0-n8b" id="rxz-7Z-Vto"/>
+                                            <outlet property="videoTitleLabel" destination="tYU-ZJ-dcN" id="89G-or-6Rc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -97,6 +105,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Video Watch" id="A2f-9e-wWH"/>
+                    <connections>
+                        <outlet property="videoTableView" destination="C3z-gb-gEr" id="OwR-mO-DCa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

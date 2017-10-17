@@ -7,12 +7,51 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var videoTableView: UITableView!
+    
+    var playerViewController = AVPlayerViewController()
+    var playerView = AVPlayer()
+
+    
+   
+    @IBAction func playVideoButtonTapped(_ sender: Any) {
+    
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 220
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        return cell
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        videoTableView.delegate = self
+        videoTableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
