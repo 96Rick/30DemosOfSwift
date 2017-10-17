@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -26,9 +27,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C3z-gb-gEr">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C3z-gb-gEr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
@@ -39,30 +39,49 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="233.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="videoScreenshot02" translatesAutoresizingMaskIntoConstraints="NO" id="73A-h0-n8b">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoScreenshot04" translatesAutoresizingMaskIntoConstraints="NO" id="73A-h0-n8b">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emoje Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYU-ZJ-dcN">
-                                                    <rect key="frame" x="116" y="143" width="143" height="58"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoje Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYU-ZJ-dcN">
+                                                    <rect key="frame" x="28" y="141" width="319" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="Tmj-lB-QiR"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="24"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YouTube-3:23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyS-Tj-uLd">
-                                                    <rect key="frame" x="124" y="198" width="125" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YouTube-3:23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyS-Tj-uLd">
+                                                    <rect key="frame" x="38" y="200.5" width="299" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="F3I-gJ-dE4"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFC-dh-ekT">
-                                                    <rect key="frame" x="0.0" y="-1" width="375" height="234"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFC-dh-ekT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="233"/>
                                                     <state key="normal" image="playBtn"/>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="SyS-Tj-uLd" secondAttribute="bottom" constant="5" id="4ql-wy-eyt"/>
+                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leading" id="5ZM-MZ-UCG"/>
+                                                <constraint firstItem="SyS-Tj-uLd" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leadingMargin" constant="30" id="AiT-ct-pZh"/>
+                                                <constraint firstItem="SyS-Tj-uLd" firstAttribute="centerX" secondItem="TKP-wh-Zbf" secondAttribute="centerX" id="HAJ-wu-C0h"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="tYU-ZJ-dcN" secondAttribute="bottom" constant="25" id="Kna-bZ-Rqa"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="tYU-ZJ-dcN" secondAttribute="trailing" constant="20" id="SRv-tc-A09"/>
+                                                <constraint firstItem="tYU-ZJ-dcN" firstAttribute="centerX" secondItem="TKP-wh-Zbf" secondAttribute="centerX" id="Tb5-ec-eU1"/>
+                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="top" secondItem="TKP-wh-Zbf" secondAttribute="top" id="X6a-xU-hUo"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="SyS-Tj-uLd" secondAttribute="trailing" constant="30" id="ZXE-SO-tKU"/>
+                                                <constraint firstAttribute="bottom" secondItem="JFC-dh-ekT" secondAttribute="bottom" id="aN5-kH-iQR"/>
+                                                <constraint firstItem="tYU-ZJ-dcN" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leadingMargin" constant="20" id="keg-bs-96j"/>
+                                                <constraint firstAttribute="trailing" secondItem="JFC-dh-ekT" secondAttribute="trailing" id="lMh-fP-DlM"/>
+                                                <constraint firstAttribute="bottom" secondItem="73A-h0-n8b" secondAttribute="bottom" id="mZl-zg-6jN"/>
+                                                <constraint firstAttribute="trailing" secondItem="73A-h0-n8b" secondAttribute="trailing" id="tjV-qY-wzN"/>
+                                                <constraint firstItem="73A-h0-n8b" firstAttribute="top" secondItem="TKP-wh-Zbf" secondAttribute="top" id="u5X-dJ-Kqe"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </tableViewCell>
@@ -70,6 +89,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zxh-fr-kml" firstAttribute="top" secondItem="C3z-gb-gEr" secondAttribute="bottom" id="BBe-WF-HUC"/>
+                            <constraint firstItem="C3z-gb-gEr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C1C-K9-dKU"/>
+                            <constraint firstItem="C3z-gb-gEr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KT8-RW-G4N"/>
+                            <constraint firstAttribute="trailing" secondItem="C3z-gb-gEr" secondAttribute="trailing" id="aej-J6-RA4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Video Watch" id="A2f-9e-wWH"/>
                 </viewController>
@@ -98,6 +123,6 @@
     </scenes>
     <resources>
         <image name="playBtn" width="60" height="60"/>
-        <image name="videoScreenshot02" width="375" height="220"/>
+        <image name="videoScreenshot04" width="375" height="220"/>
     </resources>
 </document>
