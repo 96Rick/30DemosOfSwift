@@ -49,6 +49,7 @@
 		1DC570BE1F95D0AE0070E0D8 /* Project_03_LocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_03_LocalVideoUITests.swift; sourceTree = "<group>"; };
 		1DC570C01F95D0AE0070E0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC570CC1F95D14C0070E0D8 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		1DC570CE1F95DC510070E0D8 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				1DC570CC1F95D14C0070E0D8 /* VideoCell.swift */,
 				1DC570A21F95D0AE0070E0D8 /* Main.storyboard */,
 				1DC570A51F95D0AE0070E0D8 /* Assets.xcassets */,
+				1DC570CE1F95DC510070E0D8 /* emoji zone.mp4 */,
 				1DC570A71F95D0AE0070E0D8 /* LaunchScreen.storyboard */,
 				1DC570AA1F95D0AE0070E0D8 /* Info.plist */,
 			);
