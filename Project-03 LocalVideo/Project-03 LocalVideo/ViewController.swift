@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
    
     @IBAction func playVideoButtonTapped(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4") {
+        if let path = Bundle.main.path(forResource: "emojiZone", ofType: "mp4") {
 //        if let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4") {
             print(path)
             playerView = AVPlayer(url: URL(fileURLWithPath: path))
@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 self.playerViewController.player?.play()
             }
         } else {
-            print(Bundle.main.path(forResource: "emoji zone", ofType: "mp4") ?? "not found")
+            print(Bundle.main.path(forResource: "emojiZone", ofType: "mp4") ?? "not found")
         }
     }
     
