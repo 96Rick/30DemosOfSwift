@@ -31,6 +31,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="separatorColor" red="0.030707292258739471" green="0.037419416010379791" blue="0.01344726700335741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="234" id="2UG-wU-t2L" customClass="VideoCell" customModule="Project_03_LocalVideo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="234"/>
