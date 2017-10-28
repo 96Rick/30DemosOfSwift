@@ -62,7 +62,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFC-dh-ekT">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="233"/>
+                                                    <rect key="frame" x="75" y="45" width="224" height="144"/>
                                                     <state key="normal" image="playBtn"/>
                                                     <connections>
                                                         <action selector="playVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggZ-6Z-ZD6"/>
@@ -70,18 +70,18 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leadingMargin" constant="67" id="220-kl-sWh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="JFC-dh-ekT" secondAttribute="trailing" constant="68" id="3HI-eU-kj8"/>
+                                                <constraint firstItem="SyS-Tj-uLd" firstAttribute="top" secondItem="JFC-dh-ekT" secondAttribute="bottom" constant="11.5" id="4Ea-Rc-3qp"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="SyS-Tj-uLd" secondAttribute="bottom" constant="5" id="4ql-wy-eyt"/>
-                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leading" id="5ZM-MZ-UCG"/>
                                                 <constraint firstItem="SyS-Tj-uLd" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leadingMargin" constant="30" id="AiT-ct-pZh"/>
+                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="top" secondItem="TKP-wh-Zbf" secondAttribute="topMargin" constant="37" id="BsL-RQ-v7t"/>
                                                 <constraint firstItem="SyS-Tj-uLd" firstAttribute="centerX" secondItem="TKP-wh-Zbf" secondAttribute="centerX" id="HAJ-wu-C0h"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="tYU-ZJ-dcN" secondAttribute="bottom" constant="25" id="Kna-bZ-Rqa"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="tYU-ZJ-dcN" secondAttribute="trailing" constant="20" id="SRv-tc-A09"/>
                                                 <constraint firstItem="tYU-ZJ-dcN" firstAttribute="centerX" secondItem="TKP-wh-Zbf" secondAttribute="centerX" id="Tb5-ec-eU1"/>
-                                                <constraint firstItem="JFC-dh-ekT" firstAttribute="top" secondItem="TKP-wh-Zbf" secondAttribute="top" id="X6a-xU-hUo"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="SyS-Tj-uLd" secondAttribute="trailing" constant="30" id="ZXE-SO-tKU"/>
-                                                <constraint firstAttribute="bottom" secondItem="JFC-dh-ekT" secondAttribute="bottom" id="aN5-kH-iQR"/>
                                                 <constraint firstItem="tYU-ZJ-dcN" firstAttribute="leading" secondItem="TKP-wh-Zbf" secondAttribute="leadingMargin" constant="20" id="keg-bs-96j"/>
-                                                <constraint firstAttribute="trailing" secondItem="JFC-dh-ekT" secondAttribute="trailing" id="lMh-fP-DlM"/>
                                                 <constraint firstAttribute="bottom" secondItem="73A-h0-n8b" secondAttribute="bottom" id="mZl-zg-6jN"/>
                                                 <constraint firstAttribute="trailing" secondItem="73A-h0-n8b" secondAttribute="trailing" id="tjV-qY-wzN"/>
                                                 <constraint firstItem="73A-h0-n8b" firstAttribute="top" secondItem="TKP-wh-Zbf" secondAttribute="top" id="u5X-dJ-Kqe"/>

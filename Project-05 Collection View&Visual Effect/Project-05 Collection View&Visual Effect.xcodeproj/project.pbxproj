@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6B36661FA3108200645361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B36651FA3108200645361 /* AppDelegate.swift */; };
+		1D6B366B1FA3108200645361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B36691FA3108200645361 /* Main.storyboard */; };
+		1D6B366D1FA3108200645361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B366C1FA3108200645361 /* Assets.xcassets */; };
+		1D6B36701FA3108200645361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B366E1FA3108200645361 /* LaunchScreen.storyboard */; };
+		1D6B367B1FA3108200645361 /* Project_05_Collection_View_Visual_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B367A1FA3108200645361 /* Project_05_Collection_View_Visual_EffectTests.swift */; };
+		1D6B36861FA3108200645361 /* Project_05_Collection_View_Visual_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B36851FA3108200645361 /* Project_05_Collection_View_Visual_EffectUITests.swift */; };
+		1D6B36CE1FA46BF100645361 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B36CD1FA46BF100645361 /* HomeViewController.swift */; };
+		1D6B36D01FA46C2800645361 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B36CF1FA46C2800645361 /* InterestCollectionViewCell.swift */; };
+		1D6B36D61FA46DD600645361 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B36D51FA46DD600645361 /* Interest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6B36771FA3108200645361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6B365A1FA3108200645361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6B36611FA3108200645361;
+			remoteInfo = "Project-05 Collection View&Visual Effect";
+		};
+		1D6B36821FA3108200645361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6B365A1FA3108200645361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6B36611FA3108200645361;
+			remoteInfo = "Project-05 Collection View&Visual Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6B36621FA3108200645361 /* Project-05 Collection View&Visual Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-05 Collection View&Visual Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6B36651FA3108200645361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D6B366A1FA3108200645361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D6B366C1FA3108200645361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D6B366F1FA3108200645361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D6B36711FA3108200645361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6B36761FA3108200645361 /* Project-05 Collection View&Visual EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-05 Collection View&Visual EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6B367A1FA3108200645361 /* Project_05_Collection_View_Visual_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_05_Collection_View_Visual_EffectTests.swift; sourceTree = "<group>"; };
+		1D6B367C1FA3108200645361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6B36811FA3108200645361 /* Project-05 Collection View&Visual EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-05 Collection View&Visual EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6B36851FA3108200645361 /* Project_05_Collection_View_Visual_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_05_Collection_View_Visual_EffectUITests.swift; sourceTree = "<group>"; };
+		1D6B36871FA3108200645361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6B36CD1FA46BF100645361 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D6B36CF1FA46C2800645361 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D6B36D51FA46DD600645361 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6B365F1FA3108200645361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B36731FA3108200645361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B367E1FA3108200645361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6B36591FA3108200645361 = {
+			isa = PBXGroup;
+			children = (
+				1D6B36641FA3108200645361 /* Project-05 Collection View&Visual Effect */,
+				1D6B36791FA3108200645361 /* Project-05 Collection View&Visual EffectTests */,
+				1D6B36841FA3108200645361 /* Project-05 Collection View&Visual EffectUITests */,
+				1D6B36631FA3108200645361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6B36631FA3108200645361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B36621FA3108200645361 /* Project-05 Collection View&Visual Effect.app */,
+				1D6B36761FA3108200645361 /* Project-05 Collection View&Visual EffectTests.xctest */,
+				1D6B36811FA3108200645361 /* Project-05 Collection View&Visual EffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6B36641FA3108200645361 /* Project-05 Collection View&Visual Effect */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B36651FA3108200645361 /* AppDelegate.swift */,
+				1D6B36CD1FA46BF100645361 /* HomeViewController.swift */,
+				1D6B36CF1FA46C2800645361 /* InterestCollectionViewCell.swift */,
+				1D6B36D51FA46DD600645361 /* Interest.swift */,
+				1D6B36691FA3108200645361 /* Main.storyboard */,
+				1D6B366C1FA3108200645361 /* Assets.xcassets */,
+				1D6B366E1FA3108200645361 /* LaunchScreen.storyboard */,
+				1D6B36711FA3108200645361 /* Info.plist */,
+			);
+			path = "Project-05 Collection View&Visual Effect";
+			sourceTree = "<group>";
+		};
+		1D6B36791FA3108200645361 /* Project-05 Collection View&Visual EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B367A1FA3108200645361 /* Project_05_Collection_View_Visual_EffectTests.swift */,
+				1D6B367C1FA3108200645361 /* Info.plist */,
+			);
+			path = "Project-05 Collection View&Visual EffectTests";
+			sourceTree = "<group>";
+		};
+		1D6B36841FA3108200645361 /* Project-05 Collection View&Visual EffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B36851FA3108200645361 /* Project_05_Collection_View_Visual_EffectUITests.swift */,
+				1D6B36871FA3108200645361 /* Info.plist */,
+			);
+			path = "Project-05 Collection View&Visual EffectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6B36611FA3108200645361 /* Project-05 Collection View&Visual Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6B368A1FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual Effect" */;
+			buildPhases = (
+				1D6B365E1FA3108200645361 /* Sources */,
+				1D6B365F1FA3108200645361 /* Frameworks */,
+				1D6B36601FA3108200645361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project-05 Collection View&Visual Effect";
+			productName = "Project-05 Collection View&Visual Effect";
+			productReference = 1D6B36621FA3108200645361 /* Project-05 Collection View&Visual Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6B36751FA3108200645361 /* Project-05 Collection View&Visual EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6B368D1FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual EffectTests" */;
+			buildPhases = (
+				1D6B36721FA3108200645361 /* Sources */,
+				1D6B36731FA3108200645361 /* Frameworks */,
+				1D6B36741FA3108200645361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6B36781FA3108200645361 /* PBXTargetDependency */,
+			);
+			name = "Project-05 Collection View&Visual EffectTests";
+			productName = "Project-05 Collection View&Visual EffectTests";
+			productReference = 1D6B36761FA3108200645361 /* Project-05 Collection View&Visual EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D6B36801FA3108200645361 /* Project-05 Collection View&Visual EffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6B36901FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual EffectUITests" */;
+			buildPhases = (
+				1D6B367D1FA3108200645361 /* Sources */,
+				1D6B367E1FA3108200645361 /* Frameworks */,
+				1D6B367F1FA3108200645361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6B36831FA3108200645361 /* PBXTargetDependency */,
+			);
+			name = "Project-05 Collection View&Visual EffectUITests";
+			productName = "Project-05 Collection View&Visual EffectUITests";
+			productReference = 1D6B36811FA3108200645361 /* Project-05 Collection View&Visual EffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6B365A1FA3108200645361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Rick;
+				TargetAttributes = {
+					1D6B36611FA3108200645361 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1D6B36751FA3108200645361 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D6B36611FA3108200645361;
+					};
+					1D6B36801FA3108200645361 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D6B36611FA3108200645361;
+					};
+				};
+			};
+			buildConfigurationList = 1D6B365D1FA3108200645361 /* Build configuration list for PBXProject "Project-05 Collection View&Visual Effect" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6B36591FA3108200645361;
+			productRefGroup = 1D6B36631FA3108200645361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6B36611FA3108200645361 /* Project-05 Collection View&Visual Effect */,
+				1D6B36751FA3108200645361 /* Project-05 Collection View&Visual EffectTests */,
+				1D6B36801FA3108200645361 /* Project-05 Collection View&Visual EffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6B36601FA3108200645361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B36701FA3108200645361 /* LaunchScreen.storyboard in Resources */,
+				1D6B366D1FA3108200645361 /* Assets.xcassets in Resources */,
+				1D6B366B1FA3108200645361 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B36741FA3108200645361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B367F1FA3108200645361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6B365E1FA3108200645361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B36D01FA46C2800645361 /* InterestCollectionViewCell.swift in Sources */,
+				1D6B36661FA3108200645361 /* AppDelegate.swift in Sources */,
+				1D6B36CE1FA46BF100645361 /* HomeViewController.swift in Sources */,
+				1D6B36D61FA46DD600645361 /* Interest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B36721FA3108200645361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B367B1FA3108200645361 /* Project_05_Collection_View_Visual_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6B367D1FA3108200645361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B36861FA3108200645361 /* Project_05_Collection_View_Visual_EffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6B36781FA3108200645361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6B36611FA3108200645361 /* Project-05 Collection View&Visual Effect */;
+			targetProxy = 1D6B36771FA3108200645361 /* PBXContainerItemProxy */;
+		};
+		1D6B36831FA3108200645361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6B36611FA3108200645361 /* Project-05 Collection View&Visual Effect */;
+			targetProxy = 1D6B36821FA3108200645361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6B36691FA3108200645361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6B366A1FA3108200645361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D6B366E1FA3108200645361 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6B366F1FA3108200645361 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6B36881FA3108200645361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D6B36891FA3108200645361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6B368B1FA3108200645361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6B368C1FA3108200645361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D6B368E1FA3108200645361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project-05 Collection View&Visual Effect.app/Project-05 Collection View&Visual Effect";
+			};
+			name = Debug;
+		};
+		1D6B368F1FA3108200645361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual EffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project-05 Collection View&Visual Effect.app/Project-05 Collection View&Visual Effect";
+			};
+			name = Release;
+		};
+		1D6B36911FA3108200645361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project-05 Collection View&Visual Effect";
+			};
+			name = Debug;
+		};
+		1D6B36921FA3108200645361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-05 Collection View&Visual EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rick.Project-05-Collection-View-Visual-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project-05 Collection View&Visual Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6B365D1FA3108200645361 /* Build configuration list for PBXProject "Project-05 Collection View&Visual Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B36881FA3108200645361 /* Debug */,
+				1D6B36891FA3108200645361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6B368A1FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B368B1FA3108200645361 /* Debug */,
+				1D6B368C1FA3108200645361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6B368D1FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B368E1FA3108200645361 /* Debug */,
+				1D6B368F1FA3108200645361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6B36901FA3108200645361 /* Build configuration list for PBXNativeTarget "Project-05 Collection View&Visual EffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B36911FA3108200645361 /* Debug */,
+				1D6B36921FA3108200645361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6B365A1FA3108200645361 /* Project object */;
+}
