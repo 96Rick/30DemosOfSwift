@@ -43,7 +43,7 @@
                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" id="2p6-hk-Xg2">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" id="2p6-hk-Xg2" customClass="InterestCollectionViewCell" customModule="Project_05_Collection_View_Visual_Effect" customModuleProvider="target">
                                                     <rect key="frame" x="0.5" y="0.0" width="252" height="328"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -90,6 +90,10 @@
                                                         <constraint firstAttribute="bottom" secondItem="wfw-1f-PQ4" secondAttribute="bottom" id="vvA-f1-kAd"/>
                                                     </constraints>
                                                     <size key="customSize" width="252" height="328"/>
+                                                    <connections>
+                                                        <outlet property="interestImage" destination="ZNQ-bg-EnR" id="CiY-Nb-uhP"/>
+                                                        <outlet property="interestLabel" destination="Obm-eV-zwj" id="rEL-pd-zdJ"/>
+                                                    </connections>
                                                 </collectionViewCell>
                                             </cells>
                                         </collectionView>
@@ -114,6 +118,12 @@
                             <constraint firstItem="Sov-KH-pW6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tvg-db-QA9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Sov-KH-pW6" id="fka-v2-whf"/>
+                        <outlet property="collectionView" destination="XlX-pA-PdK" id="ozX-jO-S3f"/>
+                        <outlet property="interestImage" destination="ZNQ-bg-EnR" id="Jfe-v3-n59"/>
+                        <outlet property="interestLabel" destination="Obm-eV-zwj" id="cRD-Ke-1RP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
