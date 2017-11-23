@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Voh-EK-PcC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Project_08_Video_Background" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m1I-ll-8jb"/>
+                        <viewControllerLayoutGuide type="bottom" id="sPy-Rl-hee"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYi-Py-yoK">
+                                <rect key="frame" x="44" y="537" width="287" height="45"/>
+                                <color key="backgroundColor" red="0.095752529799938202" green="0.67700719833374023" blue="0.12491091340780258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="Rkf-VB-gfj"/>
+                                    <constraint firstAttribute="height" constant="45" id="SUN-H4-Vr4"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.060749180614948273" green="0.062254779040813446" blue="0.19022014737129211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zAq-1T-qDU" kind="push" id="hUf-0h-Ybl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leY-nj-q7c">
+                                <rect key="frame" x="44" y="602" width="287" height="45"/>
+                                <color key="backgroundColor" red="0.99012333154678345" green="0.99669700860977173" blue="0.99073654413223267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Tdy-kc-Rtb"/>
+                                </constraints>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.095752529799938202" green="0.67700719833374023" blue="0.12491091340780258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="E1R-zT-ZtF">
+                                <rect key="frame" x="78" y="104" width="218" height="66"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029867751523852348" green="0.05106227844953537" blue="0.045035563409328461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sPy-Rl-hee" firstAttribute="top" secondItem="leY-nj-q7c" secondAttribute="bottom" constant="20" id="76w-Lh-3ll"/>
+                            <constraint firstItem="leY-nj-q7c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="8FG-n2-uDS"/>
+                            <constraint firstItem="E1R-zT-ZtF" firstAttribute="top" secondItem="m1I-ll-8jb" secondAttribute="bottom" constant="40" id="IST-2L-hkX"/>
+                            <constraint firstItem="ZYi-Py-yoK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="Qql-hQ-gvN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="leY-nj-q7c" secondAttribute="trailing" constant="28" id="bA9-LW-UV5"/>
+                            <constraint firstItem="ZYi-Py-yoK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dpH-LH-yNF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZYi-Py-yoK" secondAttribute="trailing" constant="28" id="eic-h4-tSD"/>
+                            <constraint firstItem="leY-nj-q7c" firstAttribute="top" secondItem="ZYi-Py-yoK" secondAttribute="bottom" constant="20" id="evv-cj-Spv"/>
+                            <constraint firstItem="E1R-zT-ZtF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i2D-et-hBT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="cLS-Fq-PMu"/>
+                    <connections>
+                        <outlet property="login" destination="ZYi-Py-yoK" id="x1w-md-02h"/>
+                        <outlet property="signup" destination="leY-nj-q7c" id="LpB-wT-Zvs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1895.2" y="19.340329835082461"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="Ipq-AK-sQV">
+            <objects>
+                <viewController id="zAq-1T-qDU" customClass="NextViewController" customModule="Project_08_Video_Background" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7kh-dX-JdO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uax-Xi-nEn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zpa-ro-Ogh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Ta-b9-fRH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EjW-Tq-2d6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2780" y="23.838080959520241"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gkW-jn-DKe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Voh-EK-PcC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="liX-AQ-2lN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oFY-vw-6Vl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jGQ-ex-fGU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="19"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
+</document>
